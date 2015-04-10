@@ -1,14 +1,16 @@
 function showLogin() {
-	document.getElementById('login').style.display = "block";
+	showElementById("cover");
+	showElementById("login");
 }
 
 function hideLogin() {
-	document.getElementById('login').style.display = "none";
+	hideElementById("cover");
+	hideElementById("login");
 }
 
 function init() {
 	document.getElementById('button-login').onclick = showLogin;
-	//document.getElementById('button-logout').onclick = hideLogin;
+	document.getElementById('button-cancel').onclick = hideLogin;
 }
 
 window.onload = init;

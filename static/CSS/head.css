@@ -60,7 +60,7 @@
 	background-color: #fff;
 	width: 300px;
 	margin: 0px auto;
-	padding: 45px;
+	padding: 40px 25px 30px 40px;
 	border: 1px solid #e3e1d9;
 	z-index: 30;
 }
@@ -71,9 +71,13 @@
 	margin: 10px;
 }
 
+#autoLogin{
+	width: 35%;
+	margin: 0 auto;
+}
+
 .submit {
-	display: block;
-	width: 50%;
+	width: 190px;
 	margin: 0 auto;
 }
 
@@ -82,6 +86,7 @@
 	border: 1px solid #e3e1d9;
 	padding: 5px;
 	margin: 10px 10px;
+	width: 70px;
 }
 
 #cover {

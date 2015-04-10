@@ -53,7 +53,7 @@
                     <label class="inform">密码：</label>
                     <input type="password" name="password" placeholder="密码" />
                 </div>
-                <div class="submit">
+                <div id="autoLogin">
                     <input type="checkbox" name="autoLogin" checked="checked" />自动登录
                 </div>
                 <div class="submit">
